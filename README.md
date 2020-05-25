@@ -14,3 +14,4 @@ Made for [Piano Tiles](https://h5.4j.com/games/Piano-Tiles-2-Online/index.html?p
 # mouse.position = (1170, 725) # Fourth
 ```
 5) Save and run the python file and let it do the rest.
+6) To stop the program, simply force the mouse towards the right side of the screen
