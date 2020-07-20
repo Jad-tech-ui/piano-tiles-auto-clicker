@@ -20,7 +20,7 @@ def clickfirstblock(im):
             x = i*w//4 + w//8
             if im[y,x] < 30:
                 actual_x = x + gameCoordinates[0]
-                actual_y = y + gameCoordinates[1] 
+                actual_y = y + gameCoordinates[1]
                 if score > 100:
                     actual_y += 20
                 if score > 300:
@@ -32,20 +32,20 @@ def clickfirstblock(im):
                 if score > 1000:
                     actual_y += 20
                 if score > 1100:
-                    actual_y += 30
+                    actual_y += 20
                 if score > 1300:
-                    actual_y += 30
+                    actual_y += 20
                 click(actual_x, actual_y)
                 score += 1
                 previouslane = i
                 return
 time.sleep(5)
-gameCoordinates = [680, 243, 1243, 1079] 
+gameCoordinates = [680, 243, 1243, 1079]
 starttime = time.time()
 mouse = Controller()
 # mouse.position = (742, 729) # First
 # mouse.position = (885, 721) # Second
-# mouse.position = (1025, 729) # Third
+mouse.position = (1025, 729) # Third
 # mouse.position = (1170, 725) # Fourth
 mouse.press(Button.left)
 mouse.release(Button.left)
