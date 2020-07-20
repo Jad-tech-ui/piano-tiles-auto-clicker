@@ -24,12 +24,12 @@ Made for [Piano Tiles](https://h5.4j.com/games/Piano-Tiles-2-Online/index.html?p
 
 5) Uncomment the code (line 46-49) in the auto_click.py file which contains the starting position of the tile 
 
-```python
-# mouse.position = (742, 729) # First
-# mouse.position = (885, 721) # Second
-# mouse.position = (1025, 729) # Third
-# mouse.position = (1170, 725) # Fourth
-```
+    ```python
+    # mouse.position = (742, 729) # First
+    # mouse.position = (885, 721) # Second
+    # mouse.position = (1025, 729) # Third
+    # mouse.position = (1170, 725) # Fourth
+    ```
 6) Save and run the python file and let it do the rest.
 
 7) To stop the program, simply force the mouse towards the right side of the screen
