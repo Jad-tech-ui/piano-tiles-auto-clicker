@@ -3,6 +3,7 @@ _Really simple python program to make an auto clicker using computer vision
 Made for [Piano Tiles](https://h5.4j.com/games/Piano-Tiles-2-Online/index.html?pubid=yiv&v=1546731466)_
 
 ### Usage:
+
 1) Install the required pakages (pip install -r requirements.txt or pip3 install -r requirements.txt)
     
     For Windows:
