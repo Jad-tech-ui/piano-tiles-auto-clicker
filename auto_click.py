@@ -45,7 +45,7 @@ starttime = time.time()
 mouse = Controller()
 # mouse.position = (742, 729) # First
 # mouse.position = (885, 721) # Second
-mouse.position = (1025, 729) # Third
+# mouse.position = (1025, 729) # Third
 # mouse.position = (1170, 725) # Fourth
 mouse.press(Button.left)
 mouse.release(Button.left)
